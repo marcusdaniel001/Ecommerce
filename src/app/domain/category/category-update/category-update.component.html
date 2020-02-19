@@ -1,0 +1,19 @@
+
+<br/>
+<form>
+    <div class="form-group">
+        <label for="exampleInputEmail1">Nome</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="Bonés">
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlSelect1">Tipo</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+            <option>Selecione um tipo</option>
+            <option>Corpo</option>
+            <option>Roupa Intima</option>
+            <option selected>Cabeça</option>
+            <option>Pés</option>
+        </select>
+    </div>
+    <button type="submit" [routerLink]="['../list']" class="btn btn-primary">Salvar</button>
+</form>

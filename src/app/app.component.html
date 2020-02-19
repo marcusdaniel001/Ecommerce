@@ -1,0 +1,37 @@
+
+ <!-- TOPO -->
+<div class="grad">
+    <div class="row">
+        <div class="col-12" style="text-align: center">
+            <a>
+                <img id="logo" src="assets/logo.png" alt="Jhon Jhon Made in Heaven.">
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- MENU -->
+<div>
+    <div class="row">
+        <div class="col-3" style="margin-left: 294px">
+                <nav class="nav">
+                    <a class="nav-link active" [routerLink]="['category/list']"><button class="btn btn-primary">Listagem</button></a>
+                    <a class="nav-link" [routerLink]="['category/form']"><button class="btn btn-success">Cadastrar</button></a>
+                </nav>
+        </div>
+    </div>
+</div>
+
+<!-- CONTEUDO -->
+<div class="container">
+    <div>
+        <router-outlet></router-outlet>
+    </div>
+</div>
+
+<!-- RODAPE -->
+<div class="row">
+    <div class="col-12 footer" style="text-align: center">
+        <p style="margin-top: 25px; color: white"><i>2018 - Todos direitos reservados</i></p>
+    </div>
+</div>
